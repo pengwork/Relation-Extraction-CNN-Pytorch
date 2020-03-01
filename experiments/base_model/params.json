@@ -1,0 +1,20 @@
+{
+    "fix_length": 96,
+    "pos_emb_size": 100,
+    "pos_emb_dim": 50,
+
+    "kernel_sizes": [2,3,4,5],
+    "kernel_num": 128,
+
+    "optim_method": "adam",
+    "lr": 2e-5,
+    "weight_decay": 1e-5,
+
+    "dropout_ratio": 0.5,
+    "batch_size": 16,
+    "max_epoch": 100,
+
+    "min_epoch_num": 20,
+    "patience": 0.02,
+    "patience_num": 8
+}
